@@ -1,0 +1,29 @@
+      /* Estilos generales para el botón */
+      .whatsapp-button {
+        background-color: rgba(255, 68, 0, 0.789); 
+        color: white; 
+        font-size: 18px; 
+        font-family: Arial, sans-serif; 
+        padding: 12px 24px; 
+        border-radius: 50px; 
+        text-align: center; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        text-decoration: none; /* Sin subrayado en el texto */
+        transition: background-color 0.3s ease; /* Transición al pasar el ratón */
+        width: auto; /* El botón se ajusta al contenido */
+        max-width: 250px; /* Ancho máximo */
+    }
+
+    /* Estilo del icono de WhatsApp */
+    .whatsapp-button img {
+        width: 24px; /* Tamaño del icono */
+        height: 24px; /* Tamaño del icono */
+        margin-right: 10px; /* Espaciado entre el icono y el texto */
+    }
+
+    /* Efecto al pasar el ratón */
+    .whatsapp-button:hover {
+        background-color: #128C7E; /* Color más oscuro al pasar el ratón */
+    }
