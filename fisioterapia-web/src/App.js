@@ -1,5 +1,3 @@
-// src/App.js
-
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
@@ -11,8 +9,8 @@ import AgendarCita from './components/page/AgendarCita';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <main>
+<Header/>
+      {/* <main>
         <section id="services">
           <h2>Servicios</h2>
           <p>Aquí puedes agregar los servicios que ofreces como fisioterapeuta...</p>
@@ -25,19 +23,21 @@ function App() {
           <h2>Agendar Cita</h2>
           <p>Formulario o enlace para agendar cita...</p>
         </section>
-      </main>
+      </main> */}
 
-      <Router>
-      <Header />
-      <div className="content">
+      <div className="contexto">
+      {/* <Router>
+     
         <Routes>
           <Route path="/" element={<Contacto/>} />
           <Route path="/about" element={<Servicio/>} />
           <Route path="/contact" element={<AgendarCita />} />
         </Routes>
-      </div>
-    </Router>
+    </Router> */}
+<h1> Incio</h1>
+
     </div>
+      </div>
   );
 }
 

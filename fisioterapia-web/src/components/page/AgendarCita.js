@@ -1,7 +1,12 @@
 import React from 'react';
 
-const AgendarCita= () => {
-  return <h1>Welcome to the Home Page!</h1>;
+function AgendarCita() {
+ return ( 
+  <div className='AgredarCita'> 
+  <h1> Agenda tu cita con nosotros </h1>
+
+  </div>
+ )
 };
 
 export default AgendarCita;

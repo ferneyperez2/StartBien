@@ -1,7 +1,13 @@
 import React from 'react';
 
-const Servicio = () => {
-  return <h1>Welcome to the Home Page!</h1>;
+function Servicio () {
+  return( 
+
+      <div className='Servicio'>  
+
+      <h1>Welcome to the Home Page!</h1>;
+       </div> 
+  )
 };
 
 export default Servicio;
