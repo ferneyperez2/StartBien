@@ -1,14 +1,78 @@
-/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
 .App {
-  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-main {
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+.navbar button {
+  background-color: #fff;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.content {
   padding: 20px;
 }
 
-h2 {
+.section {
+  padding: 20px;
+}
+
+.section h1 {
   color: #4CAF50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background-color: #45a049;
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .content {
+    padding: 10px;
+  }
 }
